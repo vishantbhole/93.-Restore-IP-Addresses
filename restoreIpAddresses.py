@@ -29,5 +29,9 @@ if __name__ == "__main__":
     s = "25525511135"
 
     print("Output is : ", sol.restoreIpAddresses(s))
+        
+    s2 = "0000"
+
+    print("Output is : ", sol.restoreIpAddresses(s2))
 
 
