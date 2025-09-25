@@ -6,3 +6,7 @@ class Solution(object):
         :type s: str
         :rtype: List[str]
         """
+        res = []
+
+        if len(s) > 12:
+            return res
