@@ -24,3 +24,14 @@ class Solution(object):
         backtrack(0,0,"")
         return res
 
+if __name__ == "__main__":
+    sol = Solution()
+    s = "25525511135"
+
+    print("Output is : ", sol.restoreIpAddresses(s))
+        
+    s2 = "0000"
+
+    print("Output is : ", sol.restoreIpAddresses(s2))
+
+
